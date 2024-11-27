@@ -47,11 +47,18 @@ p {
   border-radius: 50%;
 }
 
+
 @media screen and (min-width:576px) {
+  #page-top {
+    display: none;
+  }
+  #page-top a {
+    display: none;
+  }
+  
   .row {
     margin-bottom: 30px;
   }
-
 }
 
 .submit-color {
